@@ -23,7 +23,6 @@
 - **Comprehensive Results:** Displays disease category, match strength (via progress bar), medications, home remedies, related symptoms, and critical medical warnings.
 
 ---
-
 ## 🧮 Algorithmic Approach
 
 The core diagnosis engine utilizes a weighted matching algorithm. The time complexity of the `diagnose` function is $\mathcal{O}(N \times M)$, where:
@@ -31,8 +30,16 @@ The core diagnosis engine utilizes a weighted matching algorithm. The time compl
 - $M$ is the number of symptoms selected by the user.
 
 **Scoring Formula:**
-For each disease, the match score is calculated as:
-$$ \text{Score} = \left( \frac{\sum \text{Weights of Matched Selected Symptoms}}{\sum \text{Total Symptom Weights for the Disease}} \right) \times 100 $$
+For each disease, the match score is mathematically defined as:
+
+$$ \text{Score}_d = \left( \frac{\sum_{i \in (U \cap D)} w_i}{\sum_{j \in D} w_j} \right) \times 100 $$
+
+**Where:**
+- $d$: The specific disease being evaluated.
+- $U$: The set of symptoms selected by the user.
+- $D$: The set of all symptoms associated with disease $d$ in the database.
+- $U \cap D$: The matched symptoms (intersection of user selection and disease symptoms).
+- $w_i , w_j$: The predefined clinical weight of a given symptom.
 
 This ensures that critical symptoms (higher weights) heavily influence the final percentage, providing a more accurate preliminary diagnosis than a simple unweighted count.
 
