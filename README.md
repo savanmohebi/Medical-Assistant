@@ -50,7 +50,7 @@ This application relies entirely on standard Python libraries. No external packa
 ## 🚀 Installation & Setup
 
 1. **Clone or Download the Repository:**
-   Ensure the main Python script (e.g., `main.py`) is in your working directory.
+   Ensure the main Python script (e.g., `RLbasedMedicalAssistant.py`) is in your working directory.
 
 2. **Create the Database:**
    The application requires a JSON database named `medical_database.json` to be present in the same directory as the Python script. (See the [Database Structure](#-database-structure) section below).
@@ -58,5 +58,6 @@ This application relies entirely on standard Python libraries. No external packa
 3. **Run the Application:**
    Execute the script using Python:
 ```bash
-   python main.py
+   python RLbasedMedicalAssistant.py
    
+
