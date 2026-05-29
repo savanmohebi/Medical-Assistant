@@ -1,0 +1,685 @@
+[
+    {
+        "name": "Common Cold",
+        "category": "Respiratory",
+        "symptoms": {
+            "runny nose": 3,
+            "sore throat": 3,
+            "cough": 2,
+            "sneezing": 3,
+            "fatigue": 1,
+            "fever": 1
+        },
+        "medications": ["Paracetamol", "Antihistamine"],
+        "home_remedies": ["Rest", "Warm fluids", "Steam inhalation"],
+        "doctor_when": "If symptoms last more than 7 days or breathing becomes difficult."
+    },
+    {
+        "name": "Flu",
+        "category": "Respiratory",
+        "symptoms": {
+            "fever": 4,
+            "body ache": 4,
+            "fatigue": 3,
+            "cough": 2,
+            "headache": 2,
+            "chills": 3
+        },
+        "medications": ["Paracetamol", "Oseltamivir"],
+        "home_remedies": ["Rest", "Drink fluids", "Warm soup"],
+        "doctor_when": "If fever is very high or breathing problems appear."
+    },
+    {
+        "name": "Asthma",
+        "category": "Respiratory",
+        "symptoms": {
+            "shortness of breath": 4,
+            "wheezing": 4,
+            "chest tightness": 3,
+            "cough": 2
+        },
+        "medications": ["Salbutamol inhaler", "Corticosteroid inhaler"],
+        "home_remedies": ["Avoid triggers", "Breathing exercises"],
+        "doctor_when": "If inhaler does not help or breathing becomes severe."
+    },
+    {
+        "name": "Bronchitis",
+        "category": "Respiratory",
+        "symptoms": {
+            "cough": 4,
+            "mucus cough": 3,
+            "fatigue": 2,
+            "shortness of breath": 2,
+            "fever": 1
+        },
+        "medications": ["Cough syrup", "Ibuprofen"],
+        "home_remedies": ["Humid air", "Warm tea", "Rest"],
+        "doctor_when": "If cough lasts more than 2 weeks."
+    },
+    {
+        "name": "Pneumonia",
+        "category": "Respiratory",
+        "symptoms": {
+            "fever": 4,
+            "cough": 3,
+            "shortness of breath": 4,
+            "chest pain": 3,
+            "fatigue": 2
+        },
+        "medications": ["Antibiotics", "Paracetamol"],
+        "home_remedies": ["Rest", "Drink fluids"],
+        "doctor_when": "Seek medical care immediately."
+    },
+    {
+        "name": "Sinusitis",
+        "category": "ENT",
+        "symptoms": {
+            "facial pain": 4,
+            "runny nose": 2,
+            "headache": 2,
+            "nasal congestion": 4,
+            "fever": 1
+        },
+        "medications": ["Decongestant", "Ibuprofen"],
+        "home_remedies": ["Steam inhalation", "Warm compress"],
+        "doctor_when": "If symptoms persist more than 10 days."
+    },
+    {
+        "name": "Ear Infection",
+        "category": "ENT",
+        "symptoms": {
+            "ear pain": 4,
+            "fever": 2,
+            "hearing loss": 2,
+            "ear discharge": 3
+        },
+        "medications": ["Antibiotic ear drops", "Pain relievers"],
+        "home_remedies": ["Warm compress"],
+        "doctor_when": "If pain is severe or hearing loss worsens."
+    },
+    {
+        "name": "Tonsillitis",
+        "category": "ENT",
+        "symptoms": {
+            "sore throat": 4,
+            "fever": 3,
+            "swollen glands": 3,
+            "difficulty swallowing": 4
+        },
+        "medications": ["Paracetamol", "Antibiotics"],
+        "home_remedies": ["Salt water gargle", "Warm fluids"],
+        "doctor_when": "If swallowing becomes difficult or fever stays high."
+    },
+    {
+        "name": "Pharyngitis",
+        "category": "ENT",
+        "symptoms": {
+            "sore throat": 4,
+            "fever": 2,
+            "cough": 1,
+            "difficulty swallowing": 3
+        },
+        "medications": ["Lozenges", "Paracetamol"],
+        "home_remedies": ["Warm tea", "Salt water gargle"],
+        "doctor_when": "If symptoms last more than 5 days."
+    },
+    {
+        "name": "Allergic Rhinitis",
+        "category": "ENT",
+        "symptoms": {
+            "sneezing": 4,
+            "runny nose": 4,
+            "itchy eyes": 3,
+            "nasal congestion": 3
+        },
+        "medications": ["Antihistamines", "Nasal spray"],
+        "home_remedies": ["Avoid allergens", "Use air purifier"],
+        "doctor_when": "If symptoms interfere with daily life."
+    },
+    {
+        "name": "Gastritis",
+        "category": "Digestive",
+        "symptoms": {
+            "stomach pain": 4,
+            "nausea": 2,
+            "bloating": 3,
+            "loss of appetite": 2
+        },
+        "medications": ["Omeprazole", "Antacids"],
+        "home_remedies": ["Avoid spicy food", "Small meals"],
+        "doctor_when": "If pain persists for several days."
+    },
+    {
+        "name": "Food Poisoning",
+        "category": "Digestive",
+        "symptoms": {
+            "nausea": 3,
+            "vomiting": 4,
+            "diarrhea": 4,
+            "stomach pain": 3,
+            "fever": 1
+        },
+        "medications": ["ORS", "Metoclopramide"],
+        "home_remedies": ["Drink fluids", "Light food"],
+        "doctor_when": "If dehydration occurs."
+    },
+    {
+        "name": "GERD",
+        "category": "Digestive",
+        "symptoms": {
+            "heartburn": 4,
+            "chest pain": 2,
+            "nausea": 1,
+            "bloating": 2,
+            "sour taste": 3
+        },
+        "medications": ["Antacids", "Omeprazole"],
+        "home_remedies": ["Avoid late meals", "Elevate head during sleep"],
+        "doctor_when": "If symptoms happen frequently."
+    },
+    {
+        "name": "Irritable Bowel Syndrome",
+        "category": "Digestive",
+        "symptoms": {
+            "abdominal cramps": 4,
+            "bloating": 3,
+            "diarrhea": 2,
+            "constipation": 2
+        },
+        "medications": ["Antispasmodics", "Fiber supplements"],
+        "home_remedies": ["Low FODMAP diet", "Stress reduction"],
+        "doctor_when": "If weight loss or bleeding occurs."
+    },
+    {
+        "name": "Constipation",
+        "category": "Digestive",
+        "symptoms": {
+            "constipation": 4,
+            "bloating": 2,
+            "abdominal pain": 2
+        },
+        "medications": ["Laxatives", "Fiber supplements"],
+        "home_remedies": ["Drink water", "Eat fiber", "Exercise"],
+        "doctor_when": "If lasts more than 2 weeks."
+    },
+    {
+        "name": "Diarrhea",
+        "category": "Digestive",
+        "symptoms": {
+            "diarrhea": 4,
+            "abdominal cramps": 3,
+            "nausea": 2,
+            "fever": 1
+        },
+        "medications": ["ORS", "Loperamide"],
+        "home_remedies": ["Hydration", "BRAT diet"],
+        "doctor_when": "If blood in stool or dehydration occurs."
+    },
+    {
+        "name": "Peptic Ulcer",
+        "category": "Digestive",
+        "symptoms": {
+            "stomach pain": 4,
+            "heartburn": 2,
+            "nausea": 2,
+            "bloating": 2
+        },
+        "medications": ["Proton pump inhibitors", "Antacids"],
+        "home_remedies": ["Avoid NSAIDs", "Avoid spicy foods"],
+        "doctor_when": "If vomiting blood or black stool occurs."
+    },
+    {
+        "name": "Appendicitis",
+        "category": "Digestive",
+        "symptoms": {
+            "right lower abdominal pain": 5,
+            "fever": 3,
+            "nausea": 3,
+            "vomiting": 2
+        },
+        "medications": ["Antibiotics", "Pain relievers"],
+        "home_remedies": ["None (Requires medical procedure)", "Do not eat or drink"],
+        "doctor_when": "Immediate medical emergency. Proceed to ER."
+    },
+    {
+        "name": "Migraine",
+        "category": "Neurological",
+        "symptoms": {
+            "severe headache": 5,
+            "nausea": 3,
+            "sensitivity to light": 4,
+            "sensitivity to sound": 4,
+            "visual aura": 3
+        },
+        "medications": ["Triptans", "Ibuprofen"],
+        "home_remedies": ["Rest in a dark room", "Cold compress"],
+        "doctor_when": "If headaches become more frequent or severe."
+    },
+    {
+        "name": "Tension Headache",
+        "category": "Neurological",
+        "symptoms": {
+            "dull headache": 3,
+            "neck pain": 3,
+            "shoulder tightness": 2,
+            "pressure around forehead": 4
+        },
+        "medications": ["Paracetamol", "Ibuprofen"],
+        "home_remedies": ["Stress management", "Massage", "Hydration"],
+        "doctor_when": "If medication does not relieve the pain."
+    },
+    {
+        "name": "Hypertension",
+        "category": "Cardiovascular",
+        "symptoms": {
+            "headache": 2,
+            "dizziness": 2,
+            "shortness of breath": 1,
+            "nosebleeds": 1
+        },
+        "medications": ["ACE inhibitors", "Beta blockers"],
+        "home_remedies": ["Low sodium diet", "Regular exercise", "Weight loss"],
+        "doctor_when": "If blood pressure readings are consistently high."
+    },
+    {
+        "name": "Coronary Artery Disease",
+        "category": "Cardiovascular",
+        "symptoms": {
+            "chest pain": 5,
+            "shortness of breath": 4,
+            "fatigue": 3,
+            "dizziness": 2
+        },
+        "medications": ["Statins", "Aspirin", "Nitrates"],
+        "home_remedies": ["Heart-healthy diet", "Quit smoking", "Exercise"],
+        "doctor_when": "If chest pain radiates to the arm or jaw."
+    },
+    {
+        "name": "Osteoarthritis",
+        "category": "Musculoskeletal",
+        "symptoms": {
+            "joint pain": 4,
+            "joint stiffness": 4,
+            "loss of flexibility": 3,
+            "swelling": 2
+        },
+        "medications": ["NSAIDs", "Acetaminophen"],
+        "home_remedies": ["Physical therapy", "Weight management", "Hot/cold therapy"],
+        "doctor_when": "If joint pain significantly limits daily activities."
+    },
+    {
+        "name": "Rheumatoid Arthritis",
+        "category": "Musculoskeletal",
+        "symptoms": {
+            "tender joints": 4,
+            "swollen joints": 4,
+            "morning stiffness": 5,
+            "fatigue": 3,
+            "fever": 1
+        },
+        "medications": ["DMARDs", "Biologic agents", "Corticosteroids"],
+        "home_remedies": ["Gentle exercise", "Heat therapy", "Omega-3 supplements"],
+        "doctor_when": "If joint swelling persists for more than a few days."
+    },
+    {
+        "name": "Gout",
+        "category": "Musculoskeletal",
+        "symptoms": {
+            "severe joint pain": 5,
+            "redness": 4,
+            "swelling": 4,
+            "heat in joint": 3
+        },
+        "medications": ["Colchicine", "Allopurinol", "NSAIDs"],
+        "home_remedies": ["Avoid purine-rich foods", "Stay hydrated", "Avoid alcohol"],
+        "doctor_when": "At the first sign of an attack to prevent joint damage."
+    },
+    {
+        "name": "Muscle Strain",
+        "category": "Musculoskeletal",
+        "symptoms": {
+            "muscle pain": 4,
+            "muscle spasms": 3,
+            "swelling": 2,
+            "limited movement": 3
+        },
+        "medications": ["Muscle relaxants", "Ibuprofen"],
+        "home_remedies": ["R.I.C.E. (Rest, Ice, Compression, Elevation)"],
+        "doctor_when": "If pain is unbearable or limb cannot be used."
+    },
+    {
+        "name": "Acne",
+        "category": "Dermatological",
+        "symptoms": {
+            "pimples": 4,
+            "blackheads": 3,
+            "whiteheads": 3,
+            "skin redness": 2
+        },
+        "medications": ["Salicylic acid", "Benzoyl peroxide", "Topical retinoids"],
+        "home_remedies": ["Gentle cleansing", "Avoid touching face", "Tea tree oil"],
+        "doctor_when": "If over-the-counter products do not work or scarring occurs."
+    },
+    {
+        "name": "Eczema",
+        "category": "Dermatological",
+        "symptoms": {
+            "dry skin": 4,
+            "itchy skin": 5,
+            "red patches": 4,
+            "cracked skin": 3
+        },
+        "medications": ["Topical corticosteroids", "Antihistamines"],
+        "home_remedies": ["Moisturize regularly", "Avoid harsh soaps", "Oatmeal baths"],
+        "doctor_when": "If the itch affects sleep or daily activities."
+    },
+    {
+        "name": "Psoriasis",
+        "category": "Dermatological",
+        "symptoms": {
+            "red patches of skin": 4,
+            "silvery scales": 4,
+            "dry skin": 3,
+            "itchy skin": 3,
+            "stiff joints": 2
+        },
+        "medications": ["Topical corticosteroids", "Salicylic acid", "Biologics"],
+        "home_remedies": ["Moisturize", "Aloe vera", "Sun exposure in moderation"],
+        "doctor_when": "If the condition becomes widespread or painful."
+    },
+    {
+        "name": "Contact Dermatitis",
+        "category": "Dermatological",
+        "symptoms": {
+            "red rash": 4,
+            "itchy skin": 4,
+            "blisters": 3,
+            "swelling": 2
+        },
+        "medications": ["Topical steroids", "Oral antihistamines"],
+        "home_remedies": ["Wash skin", "Apply cool compress", "Avoid the irritant"],
+        "doctor_when": "If the rash is sudden, severe, or affects the face."
+    },
+    {
+        "name": "Hives",
+        "category": "Dermatological",
+        "symptoms": {
+            "raised welts": 4,
+            "itchy skin": 5,
+            "swelling": 3,
+            "redness": 3
+        },
+        "medications": ["Antihistamines", "Corticosteroids"],
+        "home_remedies": ["Cool compress", "Wear loose clothing"],
+        "doctor_when": "If accompanied by swelling of the throat or difficulty breathing."
+    },
+    {
+        "name": "Type 2 Diabetes",
+        "category": "Endocrine",
+        "symptoms": {
+            "increased thirst": 4,
+            "frequent urination": 4,
+            "increased hunger": 3,
+            "fatigue": 3,
+            "blurred vision": 2
+        },
+        "medications": ["Metformin", "Insulin"],
+        "home_remedies": ["Healthy diet", "Regular exercise", "Weight loss"],
+        "doctor_when": "If blood sugar levels remain consistently high."
+    },
+    {
+        "name": "Hypothyroidism",
+        "category": "Endocrine",
+        "symptoms": {
+            "fatigue": 4,
+            "weight gain": 3,
+            "cold intolerance": 4,
+            "dry skin": 3,
+            "constipation": 2
+        },
+        "medications": ["Levothyroxine"],
+        "home_remedies": ["Iodine-rich diet", "Regular exercise"],
+        "doctor_when": "If you experience unexplained weight gain or extreme fatigue."
+    },
+    {
+        "name": "Hyperthyroidism",
+        "category": "Endocrine",
+        "symptoms": {
+            "weight loss": 4,
+            "rapid heartbeat": 4,
+            "nervousness": 3,
+            "sweating": 3,
+            "tremors": 2
+        },
+        "medications": ["Antithyroid medications", "Beta blockers"],
+        "home_remedies": ["Reduce stress", "Avoid caffeine"],
+        "doctor_when": "If experiencing a rapid resting heartbeat or unexplained weight loss."
+    },
+    {
+        "name": "COVID-19",
+        "category": "Infectious",
+        "symptoms": {
+            "fever": 4,
+            "cough": 4,
+            "loss of taste or smell": 5,
+            "fatigue": 3,
+            "shortness of breath": 3
+        },
+        "medications": ["Antivirals", "Paracetamol"],
+        "home_remedies": ["Isolation", "Rest", "Hydration"],
+        "doctor_when": "If experiencing trouble breathing or persistent chest pain."
+    },
+    {
+        "name": "Malaria",
+        "category": "Infectious",
+        "symptoms": {
+            "high fever": 5,
+            "chills": 5,
+            "sweating": 4,
+            "headache": 3,
+            "nausea": 2
+        },
+        "medications": ["Artemisinin-based combination therapies", "Chloroquine"],
+        "home_remedies": ["Preventative measures (mosquito nets)"],
+        "doctor_when": "If fever develops after traveling to a high-risk area."
+    },
+    {
+        "name": "Dengue Fever",
+        "category": "Infectious",
+        "symptoms": {
+            "sudden high fever": 5,
+            "severe headache": 4,
+            "pain behind eyes": 4,
+            "joint pain": 5,
+            "muscle pain": 4,
+            "skin rash": 3
+        },
+        "medications": ["Paracetamol", "IV fluids (if severe)"],
+        "home_remedies": ["Hydration", "Rest", "Avoid aspirin"],
+        "doctor_when": "If warning signs like severe abdominal pain or vomiting blood occur."
+    },
+    {
+        "name": "Typhoid Fever",
+        "category": "Infectious",
+        "symptoms": {
+            "prolonged fever": 5,
+            "weakness": 4,
+            "stomach pain": 3,
+            "headache": 3,
+            "loss of appetite": 4
+        },
+        "medications": ["Antibiotics", "Ciprofloxacin"],
+        "home_remedies": ["Safe drinking water", "Proper sanitation", "Hydration"],
+        "doctor_when": "If fever persists for several days despite home care."
+    },
+    {
+        "name": "Tuberculosis",
+        "category": "Infectious",
+        "symptoms": {
+            "persistent cough": 5,
+            "chest pain": 4,
+            "coughing up blood": 4,
+            "fatigue": 3,
+            "night sweats": 4,
+            "fever": 2
+        },
+        "medications": ["Isoniazid", "Rifampin", "Ethambutol"],
+        "home_remedies": ["Good ventilation", "Healthy diet to support immune system"],
+        "doctor_when": "If a cough lasts longer than 3 weeks or you cough up blood."
+    },
+    {
+        "name": "Chickenpox",
+        "category": "Infectious",
+        "symptoms": {
+            "itchy rash": 5,
+            "blisters": 5,
+            "fever": 3,
+            "fatigue": 2,
+            "loss of appetite": 2
+        },
+        "medications": ["Antihistamines", "Paracetamol", "Antiviral drugs (in severe cases)"],
+        "home_remedies": ["Calamine lotion", "Oatmeal baths", "Trim fingernails"],
+        "doctor_when": "If the rash spreads to one or both eyes or becomes very red/warm."
+    },
+    {
+        "name": "Measles",
+        "category": "Infectious",
+        "symptoms": {
+            "high fever": 5,
+            "cough": 4,
+            "runny nose": 3,
+            "red eyes": 3,
+            "skin rash": 5,
+            "koplik spots": 4
+        },
+        "medications": ["Fever reducers", "Vitamin A supplements"],
+        "home_remedies": ["Rest", "Hydration", "Dim lighting for sensitive eyes"],
+        "doctor_when": "If you suspect measles, call the doctor before visiting."
+    },
+    {
+        "name": "Anemia",
+        "category": "Blood",
+        "symptoms": {
+            "fatigue": 5,
+            "weakness": 4,
+            "pale skin": 4,
+            "chest pain": 2,
+            "cold hands and feet": 3,
+            "dizziness": 3
+        },
+        "medications": ["Iron supplements", "Vitamin B12 injections"],
+        "home_remedies": ["Iron-rich diet", "Vitamin C to boost iron absorption"],
+        "doctor_when": "If you feel fatigued for unexplained reasons."
+    },
+    {
+        "name": "Urinary Tract Infection",
+        "category": "Urinary",
+        "symptoms": {
+            "burning feeling when urinating": 5,
+            "frequent urination": 4,
+            "cloudy urine": 3,
+            "pelvic pain": 3
+        },
+        "medications": ["Antibiotics", "Pain relievers (Phenazopyridine)"],
+        "home_remedies": ["Drink plenty of water", "Drink cranberry juice"],
+        "doctor_when": "If symptoms do not improve within 24 hours."
+    },
+    {
+        "name": "Kidney Stones",
+        "category": "Urinary",
+        "symptoms": {
+            "severe side and back pain": 5,
+            "pain radiating to lower abdomen": 4,
+            "pain on urination": 4,
+            "pink or brown urine": 3,
+            "nausea": 3
+        },
+        "medications": ["Pain relievers", "Alpha blockers", "Medical therapy"],
+        "home_remedies": ["Drink excessive amounts of water", "Lemon juice"],
+        "doctor_when": "If pain is so severe you cannot sit still, or accompanied by fever."
+    },
+    {
+        "name": "Conjunctivitis",
+        "category": "Eye",
+        "symptoms": {
+            "redness in eye": 5,
+            "itchiness in eye": 4,
+            "gritty feeling in eye": 3,
+            "discharge from eye": 4,
+            "tearing": 3
+        },
+        "medications": ["Antibiotic eye drops", "Antiviral medications", "Antihistamine drops"],
+        "home_remedies": ["Warm or cold compresses", "Stop wearing contact lenses"],
+        "doctor_when": "If accompanied by eye pain or blurred vision."
+    },
+    {
+        "name": "Glaucoma",
+        "category": "Eye",
+        "symptoms": {
+            "patchy blind spots": 4,
+            "tunnel vision": 3,
+            "severe headache": 3,
+            "eye pain": 4,
+            "blurred vision": 4
+        },
+        "medications": ["Prescription eye drops", "Oral medications"],
+        "home_remedies": ["Eat a healthy diet", "Exercise safely", "Elevate head while sleeping"],
+        "doctor_when": "If you experience sudden blurred vision or severe eye pain."
+    },
+    {
+        "name": "Cataracts",
+        "category": "Eye",
+        "symptoms": {
+            "clouded vision": 5,
+            "difficulty with vision at night": 4,
+            "sensitivity to light": 3,
+            "halos around lights": 4,
+            "fading of colors": 3
+        },
+        "medications": ["None (Surgery is standard treatment)"],
+        "home_remedies": ["Use brighter lights", "Wear anti-glare sunglasses"],
+        "doctor_when": "If vision problems interfere with your daily activities."
+    },
+    {
+        "name": "Sleep Apnea",
+        "category": "Sleep",
+        "symptoms": {
+            "loud snoring": 5,
+            "gasping for air during sleep": 4,
+            "morning headache": 3,
+            "daytime sleepiness": 4,
+            "dry mouth upon waking": 2
+        },
+        "medications": ["CPAP machine", "Oral appliances"],
+        "home_remedies": ["Lose weight", "Avoid alcohol before bed", "Sleep on your side"],
+        "doctor_when": "If snoring is loud enough to disturb others or you wake up gasping."
+    },
+    {
+        "name": "Insomnia",
+        "category": "Sleep",
+        "symptoms": {
+            "difficulty falling asleep": 5,
+            "waking up during the night": 4,
+            "waking up too early": 4,
+            "not feeling rested": 5,
+            "daytime tiredness": 4
+        },
+        "medications": ["Sleeping pills", "Melatonin supplements"],
+        "home_remedies": ["Stick to a sleep schedule", "Limit screen time before bed", "Relaxation techniques"],
+        "doctor_when": "If insomnia makes it hard to function during the day for multiple weeks."
+    },
+    {
+        "name": "Fibromyalgia",
+        "category": "Musculoskeletal",
+        "symptoms": {
+            "widespread muscle pain": 5,
+            "fatigue": 5,
+            "cognitive difficulties": 4,
+            "sleep problems": 4,
+            "headache": 3
+        },
+        "medications": ["Pain relievers", "Antidepressants", "Anti-seizure drugs"],
+        "home_remedies": ["Stress reduction", "Regular exercise", "Good sleep hygiene"],
+        "doctor_when": "If widespread pain and fatigue persistently disrupt your life."
+    }
+]
